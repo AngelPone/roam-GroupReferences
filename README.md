@@ -20,7 +20,7 @@ document.getElementsByTagName("head")[0].appendChild(s);
     
 	```
 	- Source
-		- ^Source
+	  - ^Source
 	- Paper
-		- ^@
+	  - ^@
 	```
