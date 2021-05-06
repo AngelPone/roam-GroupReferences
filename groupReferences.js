@@ -1,4 +1,4 @@
-ReferencesGroup = () => {
+(() => {
 	getReference = () => {
 		const containers = document.getElementsByClassName('refs-by-page-view');
 		const pages = document.getElementsByClassName('rm-title-display')
@@ -63,7 +63,7 @@ ReferencesGroup = () => {
 		});
     }
     createButton(insertContainer, 'All', (event) => {
-			filterNotMatch(referenceList[0], '.';
+			filterNotMatch(referenceList[0], '.');
 			window.ReferencesGroup['State'] = '';
 		});
 
@@ -82,6 +82,7 @@ ReferencesGroup = () => {
 
 	observer.observe(targetNode, mutationConfig);
 
-};
+})();
+
 
 
