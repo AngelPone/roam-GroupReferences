@@ -6,7 +6,7 @@ Group Linked Reference of page based on pre-configured Regex rule.
 
 ```javascript
 var s = document.createElement("script");
-s.src = "https://cdn.jsdelivr.net/gh/AngelPone/roam-GroupReferences@main/groupReferences@0.1.6.js";
+s.src = "https://cdn.jsdelivr.net/gh/AngelPone/roam-GroupReferences@main/groupReferences@0.1.7.js";
 s.id = "GroupReference";
 s.async = false;
 s.type = "text/javascript";
