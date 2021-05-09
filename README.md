@@ -24,7 +24,7 @@ document.getElementsByTagName("head")[0].appendChild(s);
 	- Paper
 	  - ^@
 	- DNP
-		-(January|February|March|April|May|June|July|August|September|October|November|December)\d{1,2}(th|rd|st), 202\d
+	  -(January|February|March|April|May|June|July|August|September|October|November|December)\d{1,2}(th|rd|st), 202\d
 	```
 
 where `DNP` means `Daily Notes Page`
