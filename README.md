@@ -17,10 +17,17 @@ document.getElementsByTagName("head")[0].appendChild(s);
 
 1. Create a config page named `roam/js/GroupReferences`
 2. add Category and corresponding regex rule
-    
+   
 	```
 	- Source
 	  - ^Source
 	- Paper
 	  - ^@
+	- DNP
+		-(January|February|March|April|May|June|July|August|September|October|November|December)\d{1,2}(th|rd|st), 202\d
 	```
+
+where `DNP` means `Daily Notes Page`
+
+check this video for a small example: https://cln.sh/Y7Za3u
+
