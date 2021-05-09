@@ -42,7 +42,6 @@ filterNotMatch = (referenceList, rule) => {
 }
 
 createButtons = (referenceList, container, Configs) => {
-  console.log(referenceList);
   let buttonDiv = document.createElement('div');
   buttonDiv.id = 'GroupReferenceButton';
   for (let config of Configs) {
@@ -59,7 +58,6 @@ createButtons = (referenceList, container, Configs) => {
 }
 
 const pageCallback = (mutationList, observer) => {
-  console.log("run to pageCallback");
   const button = document.getElementById('GroupReferenceButton');
   if (button !== null){
     return;
@@ -98,7 +96,8 @@ const mutationConfig = {childList: true};
 // }
 
 const pagemutationConfig = {subtree: true, childList: true};
-const pageTitleNode = document.getElementsByClassName("roam-body")[0];
+let pageTitleNode = document.getElementsByClassName("roam-body")[0];
+console.log(pageTitleNode);
 const observer = new MutationObserver(pageCallback);
 observer.observe(pageTitleNode, pagemutationConfig);
 })();
